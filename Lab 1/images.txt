@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Favorite Things</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<img src="images/me.jpeg" alt="Ryan Duerkop" width="500">
+<img src="miracle_on_ice-image.jpg" alt="movie cover" width="500">
+<img src="family_guy.jpg" alt="show cover" width="500">
+<img src="cookie_recipe.webp" alt="cookie recipe" width="500">
