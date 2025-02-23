@@ -1,0 +1,39 @@
+body {
+    font-family: Arial;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    color: Blue;
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header {
+    background-color: Blue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav a {
+    margin: 0 15px;
+    color:Blue;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+    color: Blue;
+}
+main {
+    padding: 20px;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: Blue;
+    color: white;
+}
+a:visited {
+    color: Blue;
+}
