@@ -1,39 +1,62 @@
 body {
-    font-family: Arial;
-    background-color: white;
-    margin: 0;
-    padding: 0;
-    color: Blue;
-    background-image: url();
-    background-size: cover;
-    background-position: center;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Ice_hockey_pictogram.svg/600px-Ice_hockey_pictogram.svg.png');
+    background-size: contain;
     background-repeat: no-repeat;
-}
-header {
-    background-color: Blue;
-    color: white;
+    background-position: top right;
+    font-family: Verdana, sans-serif;
     padding: 20px;
-    text-align: center;
+    color: #111;
+    background-color: #f0f8ff;
 }
+
+header {
+    text-align: center;
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
 nav a {
     margin: 0 15px;
-    color:Blue;
     text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
 }
-nav a:hover {
-    text-decoration: underline;
-    color: Blue;
+
+a:link {
+    color: #ffcc00;
 }
-main {
-    padding: 20px;
-    text-align: center;
-}
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: Blue;
-    color: white;
-}
+
 a:visited {
-    color: Blue;
+    color: #999999;
+}
+
+a:hover {
+    color: #ff6600;
+}
+
+a:active {
+    color: #cc0000;
+}
+
+main {
+    margin-top: 20px;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #003366;
+    border-radius: 8px;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+    border: none;
 }
