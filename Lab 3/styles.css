@@ -1,0 +1,78 @@
+body{
+    font-family: 'Arial';
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+header {
+    background-color: white;
+    color: Black;
+    Text-align: Left;
+    padding: 1rem;
+}
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+}
+nav ul {
+    padding: 0;
+    margin: 1rem 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+main {
+    width: 80%;
+    margin: 2rem auto;
+    background: white;
+    padding: 2rem;
+}
+h2 {
+    font-size: 2rem;
+    color: #007acc;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    color: Black;
+}
+p {
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-bottom: 1.5rem;
+}
+
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 1.5rem auto;
+}
+
+
+ul, ol {
+    padding-left: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+ul li, ol li {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
