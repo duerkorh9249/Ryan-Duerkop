@@ -39,7 +39,7 @@ main{
     margin: 1rem auto;
 }
 h2{
-    background-color: #fff;
+    background-color: #fff;/*Wrong background color should be #275218 */
     color: #fff;
     padding: 1rem;
     margin: 0 0 1rem;
@@ -52,6 +52,10 @@ article{
 article>img{
     float: left;
     margin: 0 1rem 1rem 0;
+    /*Missing 
+    max-width:100%;
+    width:30rem;
+    */
 }
 article>.image-only{
     float: none;
