@@ -30,12 +30,12 @@ form{
     background-color: rgba(0,0,0,.9);
     padding: 1rem 2rem;
     width: 50rem;
-    max-width: calc(90%-4rem);
+    max-width: calc(90% - 4rem);
     margin: 1rem auto;
 }
 input[type="text"], input[type="email"], input[type="date"], input[type="number"], input[type="color"]{
     font-size: 1.25rem;
-    width: calc(100%-1rem);
+    width: calc(100% - 1rem);
     border: 3px solid yellowgreen;
     padding: .5rem;
     border-radius: .25rem;
