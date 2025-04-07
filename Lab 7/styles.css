@@ -5,14 +5,14 @@ body {
   background-color: rgb(64, 73, 61);
 }
 header {
-  background-image: url("images/lab7.5.jpg");
+  background-image: url("images/Lab7.5.jpg");/*File should be images/Lab7background.png */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   padding: 1rem;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-between;/*Should be center*/
 }
 h1 {
   display: none;
@@ -44,7 +44,7 @@ main img {
   margin: 0.5rem 0;
 }
 .about-me h2 {
-  background-image: url("images/lab7-me.jpg");
+  background-image: url("images/lab7-me.jpg");/*File name should be Images/Lab-7-me.jpg */
   background-size: cover;
   padding: 10rem 0 10rem 4rem;
   text-shadow: 2px 2px 2px #0000008f;
