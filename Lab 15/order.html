@@ -28,6 +28,7 @@
             <h2>Place Order</h2>
             <div class="cloner">
                 <div class="container">
+                </div>
                     <template>
                         <div class="row">
                             <label>Coffee</label>
@@ -49,7 +50,7 @@
                                 <option value="pepermint-mocha">Peppermint Mocha</option>
                                 <option value="affogato">Affogato</option>
                             </select>
-                        </div>
+                        
                         <label>Size</label>
                         <select>
                             <option value="small">Small 12 oz.</option>
@@ -58,14 +59,14 @@
                         <label>Quantity</label>
                         <input type="number" value="1" min="1" max="10">
                         <a class="delete" onclick="removeRow(event)">x</a>
-                    
+                        </div>
                     </template>
-                </div>
-                    <a class="add button"><span>+</span>Add Coffee</a>
+                    <div><a class="add-button"><span>+</span>Add Coffee</a></div>
             </div>
                 
             <div class="cloner">
                 <div class="container">
+                </div>
                     <template>
                         <div class="row">
                             <label>Waffle</label>
@@ -119,9 +120,10 @@
                         <a class="delete" onclick="removeRow(event)">x</a>
                 </div>
         </template>
-            </div>
+    <div>
                 <a class="add-button"><span>+</span>Add Waffles</a>
         </div>
+            </div>
         <a href="#" class="button">Order</a>
         <dialog>
             <a class="close">x</a>
