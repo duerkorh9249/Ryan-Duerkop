@@ -241,6 +241,7 @@ form{
 dialog p{
     margin: 0;
 }
+@media(min-width: 1000px){
 .gallery img{
     max-width: 50vw;
     height: calc(50vw / 1.778);
@@ -265,4 +266,5 @@ dialog p{
 section{
     max-width: 50rem;
     margin: 1rem auto;
+}
 }
