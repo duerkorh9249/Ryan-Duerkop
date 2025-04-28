@@ -1,3 +1,4 @@
+// gallery component
 document.addEventListener('DOMContentLoaded', function(){
 	var rotate = function(component, step){
 		// figure out width of container
@@ -15,6 +16,9 @@ document.addEventListener('DOMContentLoaded', function(){
 		var component = components[i];
 		component.querySelector('.left').addEventListener('click', function(){
 			rotate(component, 1);
+		});
+		component.querySelector('.right').addEventListener('click', function(){
+			rotate(component, -1);
 		});
 	}
 });
@@ -39,6 +43,7 @@ function removeRow(e){
 	let row = button.closest('.row');
 	row.remove();
 }
+//dialog box
 document.addEventListener("DOMContentLoaded", function(){
 	document.querySelector('form a[href="#"]').addEventListener('click', function(){
 		document.querySelector('form dialog').classList.toggle('show');
