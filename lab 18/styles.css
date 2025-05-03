@@ -1,0 +1,235 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fdf7e5;
+    color: #333;
+  }
+  img {
+    max-width: 100%;
+    display: block;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 2px solid #fdf7e5;
+  }
+  .logo {
+    height: 50px;
+  }
+  nav {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+  }
+  nav a {
+    font-weight: bold;
+    color: #f37478;
+    transition: color 0.3s ease;
+  }
+  nav a:hover {
+    color: #f39c12;
+  }
+  .icon {
+    height: 30px;
+  }
+  .hero {
+    background-image: url("images/bread-background.png");
+    background-size: cover;
+    max-width: 1000px;
+    background-position: center;
+    text-align: center;
+    padding: 4rem 2rem;
+    color: white;
+    margin: 0 auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  }
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    text-align: Left;
+  }
+  .hero p {
+    font-size: 1.2rem;
+    font-style: italic;
+    text-align: Left;
+  }
+.about {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .card {
+    max-width: 1000px;         
+    margin: 2rem auto;        
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  }
+  .card img {
+    flex: 1 1 200px;
+    max-width: 200px;
+    border-radius: 50%;        
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+  }
+  .card div {
+    flex: 2 1 300px;
+    font-size: 0.95rem;
+  }
+  .card h2 {
+    color: #f0575c;
+    margin-bottom: 0.5rem;
+  }
+  .hours {
+    max-width: 1000px;                
+    margin: 2rem auto;               
+    padding: 2rem;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  }
+  .hours img {
+    flex: 0 0 120px;                
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;             
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+  }
+  .hours div {
+    flex: 2 1 300px;
+    font-size: 0.95rem;
+  }
+  .hours h2 {
+    font-size: 1.5rem;
+    color: #c0392b;
+    margin-bottom: 0.5rem;
+  }
+  .hours p {
+    margin-bottom: 0.25rem;
+  }
+  
+  .goods {
+    padding: 2rem;
+    text-align: center;
+    background-color: #fff7e6;
+  }
+  .goods h2 {
+    margin-bottom: 1rem;
+    color: #f0575c;
+  }
+  .icon-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 0.75rem 1rem;
+    background-color: #f0575c;  
+    border-radius: 8px;
+    max-width: 1035px;
+    margin: 0 auto 2rem auto;
+  }
+  .icon-bar img {
+    height: 40px;
+    width: auto;
+  }
+  .icon-bar h2 {
+    color: white;
+    font-size: 1.1rem;
+    margin-right: 0.75rem;
+  }
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+  }
+  .product-card {
+    background: white;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+  }
+  .product-card h3 {
+    color: #f0575c;
+    margin-bottom: 0.5rem;
+  }
+  .product-card img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto 0.5rem;
+  }
+  .product-card label {
+    display: block;
+    margin: 0.5rem 0;
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+  .product-card input {
+    padding: 0.4rem;
+    width: 60%;
+    border: 2px solid #96c291;
+    border-radius: 0.3rem;
+  }
+  .product-card button {
+    background-color: #f0575c;
+    color: white;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.3rem;
+    margin-top: 0.5rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .product-card button:hover {
+    background-color: #f0575c;
+  }
+  footer {
+    background-color: #24ac92;
+    color: #0b132b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  footer img {
+    height: 2rem;
+  }
+  @media screen and (max-width: 768px) {
+    .card {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .hours {
+      flex-direction: column;
+      text-align: center;
+    }
+    nav {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  }
