@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('images/Background image.jpg');
+  background-repeat: repeat;
+  background-size: cover;
+  color: #111;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 1rem;
+  border-bottom: 3px solid green;
+}
+.logo {
+  height: 200px;
+  width: auto;
+  display: block;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+nav a {
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+nav a img {
+  height: 40px;
+  width: auto;
+  display: block;
+}
+.section-banner,
+.green-banner,
+.menu-banner,
+.program-banner,
+.payment-header {
+  background-color: #a8cfa1;
+  padding: 1rem 2rem;
+}
+.section-banner h1,
+.green-banner h1,
+.menu-banner,
+.program-banner h1,
+.payment-header h1 {
+  font-size: 2rem;
+  color: black;
+  margin: 0;
+}
+.image-row {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+.image-row img {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
+.promos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-bottom: 3rem;
+}
+.promo {
+  background-color: #a2dba5;
+  padding: 1rem;
+  min-width: 200px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1rem;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+.menu-container {
+  display: flex;
+  padding: 1rem;
+}
+.side-nav {
+  width: 150px;
+}
+.side-nav ul {
+  list-style: none;
+}
+.side-nav li {
+  padding: 0.5rem 0;
+  border-bottom: 1px dashed #333;
+}
+.menu-items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  padding-left: 1rem;
+  flex: 1;
+}
+.item {
+  text-align: center;
+}
+.item img {
+  width: 100%;
+  max-height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.item h3 {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+.program-content {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: flex-start;
+}
+.program-content h2 {
+  grid-column: 1 / -1;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+.description {
+  background-color: #8bc98f;
+  padding: 1rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.application-form {
+  background-color: #8bc98f;
+  padding: 1rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.application-form label {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+.application-form input,
+.application-form textarea {
+  margin-top: 0.3rem;
+  padding: 0.5rem;
+  border: none;
+  background-color: #ccc;
+  border-radius: 3px;
+}
+.payment-section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  background-color: white;
+}
+.cart-image {
+  flex: 1 1 200px;
+  background-color: #a5d6a7;
+  height: 300px;
+  margin-right: 1rem;
+}
+.payment-form {
+  display: flex;
+  flex: 2 1 500px;
+  flex-wrap: wrap;
+  background-color: #a5d6a7;
+  padding: 1rem;
+  gap: 1rem;
+}
+.payment-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+  color: #1b1b1b;
+}
+.payment-form input {
+  width: 100%;
+  padding: 0.25rem;
+  margin-bottom: 0.5rem;
+  border: none;
+}
+.form-left,
+.form-right {
+  flex: 1 1 200px;
+}
+button {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center; /* Center logo and nav */
+  }
+  .logo {
+    height: 60px;
+    margin-bottom: 0.5rem;
+  }
+  nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  nav a {
+    padding: 0.25rem 0.5rem;
+  }
+  .menu-container {
+    flex-direction: column;
+  }
+  .side-nav {
+    width: 100%;
+  }
+  .menu-items {
+    grid-template-columns: 1fr;
+    padding-left: 0;
+  }
+  .program-content {
+    grid-template-columns: 1fr;
+  }
+  .program-content h2 {
+    text-align: center;
+  }
+  .payment-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cart-image {
+    width: 80%;
+    height: 200px;
+    margin: 1rem 0;
+  }
+  .payment-form {
+    flex-direction: column;
+    width: 100%;
+  }
+  .form-left,
+  .form-right {
+    width: 100%;
+  }
+  .image-row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .promos {
+    flex-direction: column;
+    align-items: center;
+  }
+}
