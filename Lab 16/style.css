@@ -113,6 +113,12 @@ header a:hover{
         transform: translateX(30vw);
     }
 }
+/*Missing 
+.robots{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+    */
 .robots figure{
     justify-self: center;
 }
